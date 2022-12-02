@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(156, 148, 196);
+    height: 43em;
+    flex-direction: column;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:  1px 1px 2px black;
+}
+
+#sin {
+    margin: 0px 10px;
+    font-size: 25px;
+}
+
+#reg {
+    margin: 0px 10px;
+    font-size: 25px;
+}
+
+button {
+    color: white;
+    border: 0px;
+    background-color: rgb(251, 205, 204);
+}
+
+button:hover {
+    transition: 0.2s;
+    color: black;
+}
+
+.chailCon {
+    border: 1px solid rgb(185, 200, 233);
+    width: 15%;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 60px 20px 60px;
+    background-color: rgb(185, 200, 233);
+}
+
+.main {
+    color: white;
+    margin: 0 auto;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.main:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    text-shadow: 1px 1px 2px rgb(156, 148, 196), 0 0 1em rgb(156, 148, 196), 0 0 0.2em white
+}
+
+
+.register {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(185, 200, 233);
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 60px 20px 60px;
+    background-color: rgb(185, 200, 233);
+}
+input{
+    background-color:rgb(251, 205, 204);
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+}

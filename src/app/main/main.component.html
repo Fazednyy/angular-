@@ -1,0 +1,29 @@
+<div class="container">
+    <nav class="navMenu">
+        <div class="childNav">
+            <span class="search">
+                <p class="searchText">Поиск:</p><input type="text" class="input" [(ngModel)]="search">
+            </span>
+            <a class="navBox" routerLink="/room/id" *ngIf="room">Ваш Профиль</a>
+            <a class="navBox" routerLink="/signup" *ngIf="singUp">Вход</a>
+        </div>
+    </nav>
+
+    <div class="con">
+        <h2>Объявления</h2>
+        <div class="boxs">
+            <div class="mainBox" *ngIf="isLoaded && isSuccess">
+                <div class="box" *ngFor="let ad of ad">
+                    <a (click)="navigatePost(ad.id)">
+                        <div class="photo"></div>
+                        <p>{{ ad.header}}</p>
+                        <p> {{ ad.name }}</p>
+                        <p>
+                            {{ ad.data}}
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

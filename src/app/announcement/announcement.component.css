@@ -1,0 +1,35 @@
+.container {
+    background-color: rgb(185, 200, 233);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.childContainer {
+    background-color: rgb(156, 148, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo {
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.main {
+    color: white;
+    margin: 0 auto;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.main:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    text-shadow: 1px 1px 2px rgb(156, 148, 196), 0 0 1em rgb(156, 148, 196), 0 0 0.2em white
+}

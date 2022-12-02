@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "name": "Табиғат",
+        "email": "tabaksu1204@gmail.com",
+        "password": "t2a0b0a3",
+        "tel": "87054252975",
+        "age": 19
+    },
+    {
+        "id": 1,
+        "name": "Алина",
+        "email": "AlinaK0830@gmail.com",
+        "password": "zaq123",   
+        "tel": "87759508420",
+        "age": 18
+       },
+       {
+        "id": 2,
+        "name": "Рома",
+        "email": "Rom1991@gmail.com",
+        "password": "qwerty123",   
+        "tel": "87751514328",
+        "age": 30
+       }
+]

@@ -1,0 +1,88 @@
+
+
+.container {
+    background-color: rgb(185, 200, 233);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:  1px 1px 2px black;
+    height: 45rem;
+    color: white;
+}
+
+.navMenu {
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(251, 205, 204);
+    margin-top: -1%;
+    height: 10rem;
+    width: 100%;
+}
+
+.childNav {
+    display: flex;
+    margin-left: 5%;
+    justify-content: left;
+    align-items: center;
+    height: 10rem;
+    width: 25%;
+}
+
+.search {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    width: 100px;
+    height: 15px;
+}
+
+.navBox {
+    color: white;
+    margin: 0 auto;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.con {
+    text-align: center;
+    background-color: rgb(185, 200, 233);
+}
+
+
+.photo {
+    width: 218px;
+    height: 218px;
+    border: 1px solid black;
+    margin: 5% auto auto auto;
+    background-color: white;
+
+}
+
+.mainBox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    border: 1px solid rgb(185, 200, 233);
+    width: 250px;
+    background-color:  rgb(156, 148, 196);
+}
+.box:hover{
+    transition: 0.4s;
+   transform: scale(1.1);
+}
+.navBox:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    text-shadow: 1px 1px 2px rgb(156, 148, 196), 0 0 1em rgb(156, 148, 196), 0 0 0.2em white
+}
+input{
+    background-color:rgb(251, 205, 204);
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+}

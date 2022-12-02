@@ -1,0 +1,38 @@
+<div class="container">
+    <span class="nav"><Button id="sin" (click)="sin()">Вход</Button>
+        <Button id="reg" (click)="reg()">Регистрация</Button>
+    </span>
+    <div class="chailCon" *ngIf="sing">
+        <h2>Вход</h2>
+        <div class="signup">
+            <p>Email</p>
+            <input type="email" [(ngModel)]="user.email">
+            <p>Пароль</p>
+            <input type="text" [(ngModel)]="user.password"><br>
+            <button (click)="send()">Войти</button><br>
+            <a class="main" routerLink="/main">Назад</a>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="register" *ngIf="register">
+        <h2>Регистрация</h2>
+        <div class="chailReg">
+            <p>имя пользователя</p>
+            <input type="text" [(ngModel)]="users.name">
+            <p>электронная почта</p>
+            <input type="text" [(ngModel)]="users.email">
+            <p>номер телефона</p>
+            <input type="tel" [(ngModel)]="users.tel">
+            <p>возраст</p>
+            <input type="number" [(ngModel)]="users.age">
+            <p>Пароль</p>
+            <input type="text" [(ngModel)]="users.password"><br>
+            <button>Зарегестрироваться</button>
+        </div>
+        <a class="main" routerLink="/main">Назад</a>
+    </div>
+</div>
